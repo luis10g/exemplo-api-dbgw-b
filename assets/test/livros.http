@@ -1,1 +1,18 @@
-GET https://8080-tan-woodpecker-y7gy8fiz.ws-us18.gitpod.io/filmes/3
+GET https://8080-white-swordtail-tlu2qhzy.ws-us18.gitpod.io/filmes
+
+###
+
+POST https://8080-white-swordtail-tlu2qhzy.ws-us18.gitpod.io/filmes
+Content-Type: application/json
+
+{
+    "titulo" : "Exemplo"
+}
+
+###
+PUT https://8080-white-swordtail-tlu2qhzy.ws-us18.gitpod.io/filmes/5
+Content-Type: application/json
+
+{
+    "titulo" : "Ghostbusters"
+}
