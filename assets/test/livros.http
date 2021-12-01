@@ -1,8 +1,10 @@
-GET https://8080-white-swordtail-tlu2qhzy.ws-us18.gitpod.io/filmes
+@url = https://8080-lavender-rabbit-8z96yrg1.ws-us20.gitpod.io
+###
+GET {{url}}/filmes
 
 ###
 
-POST https://8080-white-swordtail-tlu2qhzy.ws-us18.gitpod.io/filmes
+POST https://8080-lavender-rabbit-8z96yrg1.ws-us20.gitpod.io/filmes
 Content-Type: application/json
 
 {
@@ -10,9 +12,17 @@ Content-Type: application/json
 }
 
 ###
-PUT https://8080-white-swordtail-tlu2qhzy.ws-us18.gitpod.io/filmes/5
+PUT https://8080-lavender-rabbit-8z96yrg1.ws-us20.gitpod.io/filmes/5
 Content-Type: application/json
 
 {
     "titulo" : "Ghostbusters"
+}
+
+###
+DELETE https://8080-lavender-rabbit-8z96yrg1.ws-us20.gitpod.io/filmes
+Content-Type: application/json
+
+{
+    "id" : 5
 }
